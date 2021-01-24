@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    margin: 70px;
+    padding: 20px;
+    justify-content: space-around;
+    flex-direction: row;
+  
+}
+
+.box {
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    width: 275px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  margin: 30 px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  object-fit: cover;
+  height: auto;
+}
+
+
+
+.button {
+    
+    border-radius: 4px;
+    background-color:greenyellow;
+    text-align: center;
+    height: 35px;
+   display: inline;
+   font-size: 16px;
+   margin: 10px 4px;
+   padding: 10px;
+
+}
